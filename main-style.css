@@ -55,7 +55,7 @@ body
 .main #navbar-left
 {
 	margin:0;
-	width:200px;
+	width:170px;
 	height:50%;
 	min-height:500px;
 	float:left;
@@ -72,4 +72,5 @@ body
 	width:70%;
 	min-width:600px;
 	height:100%;
+	margin-left:30px;
 }
