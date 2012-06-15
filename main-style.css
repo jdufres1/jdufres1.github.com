@@ -31,7 +31,7 @@ body
 	margin-left:0px;
 	position:relative;
 }
-li .nav
+.nav-item
 {
 	width:10%;
 	list-style-type:none;
