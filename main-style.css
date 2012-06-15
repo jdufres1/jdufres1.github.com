@@ -69,8 +69,7 @@ body
 .main #article
 {
 	float:left;
-	width:75%;
+	width:70%;
 	min-width:600px;
 	height:100%;
-	margin-left:150px;
 }
