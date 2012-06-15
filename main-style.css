@@ -39,11 +39,10 @@ body
 	float:left;
 	padding:11px 4px 4px 10px;
 }
-navbar-top a
+#navbar-top a
 {
 	color:white;
 	text-decoration:none;
-	font-family:arial;
 }
 .main
 {
@@ -62,6 +61,10 @@ navbar-top a
 	float:left;
 	background-color:#52a5c0;
 	
+}
+#navbar-left li
+{
+	clear:both;
 }
 .main #article
 {
