@@ -39,7 +39,7 @@ body
 	float:left;
 	padding:11px 4px 4px 10px;
 }
-#navbar-top li
+.navbar-top a
 {
 	color:white;
 	text-decoration:none;
@@ -55,7 +55,7 @@ body
 .main #navbar-left
 {
 	margin:0;
-	width:200px;
+	width:170px;
 	height:50%;
 	min-height:500px;
 	float:left;
@@ -69,8 +69,8 @@ body
 .main #article
 {
 	float:left;
-	width:75%;
+	width:70%;
 	min-width:600px;
 	height:100%;
-	margin-left:150px;
+	margin-left:30px;
 }
