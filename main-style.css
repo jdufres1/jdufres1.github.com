@@ -31,7 +31,7 @@ body
 	margin-left:0px;
 	position:relative;
 }
-.navbar-item
+li .nav
 {
 	width:10%;
 	list-style-type:none;
@@ -39,7 +39,7 @@ body
 	float:left;
 	padding:11px 4px 4px 10px;
 }
-.navbar-item a
+navbar-top a
 {
 	color:white;
 	text-decoration:none;
@@ -53,12 +53,21 @@ body
 	min-height:1160px;
 	padding-top:30px;
 }
+.main #navbar-left
+{
+	margin:0;
+	width:150px;
+	height:50%;
+	min-height:500px;
+	float:left;
+	background-color:#52a5c0;
+	
+}
 .main #article
 {
 	float:left;
-	width:60%;
-}
-.main #leafbg
-{
-	padding-top:40px;
+	width:75%;
+	min-width:650px;
+	height:100%;
+	margin-left:150px;
 }
