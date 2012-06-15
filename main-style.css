@@ -39,7 +39,7 @@ body
 	float:left;
 	padding:11px 4px 4px 10px;
 }
-.navbar-top li
+.navbar-top a
 {
 	color:white;
 	text-decoration:none;
