@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="game-style.css" />
+		<title>Unity Web Player | Game1</title>
+		<script type="text/javascript" src="http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject.js"></script>
+		<script type="text/javascript">
+		<!--
+		function GetUnity() {
+			if (typeof unityObject != "undefined") {
+				return unityObject.getObjectById("unityPlayer");
+			}
+			return null;
+		}
+		if (typeof unityObject != "undefined") {
+			unityObject.embedUnity("unityPlayer", "Game1.unity3d", 960, 600);
+			
+		}
+		-->
+		</script>
+	</head>
+	<body>
+		<div id="header"><b>Justin Dufresne</b> | <a href="http://jdufres1.github.com">Home</a>
+		<!--p class="header"><span>Unity Web Player | </span>Game1</p-->
+		<div class="content">
+			<div id="unityPlayer">
+				<div class="missing">
+					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+						<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+	</body>
+</html>

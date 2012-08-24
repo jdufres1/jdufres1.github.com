@@ -1,0 +1,68 @@
+body
+{	
+font-family: Helvetica, Verdana, Arial, sans-serif;
+background-color: #eeeeee;
+color: black;
+text-align: center;
+}
+a:link, a:visited 
+{
+color: #000;
+}
+a:active, a:hover 
+{
+color: #666;
+}
+p.footer 
+{
+font-size: x-small;
+}
+#header
+{
+background-image:url('header.png');
+background-repeat:repeat-x;
+width:960px;
+height:30px;
+border-style:solid;
+border-width:1px;
+border-color:#000000;
+border-radius:8px;
+margin:0 auto;	
+margin-bottom:10px;
+padding-top:12px;
+color:#ffffff;
+}
+#header a
+{
+color: #ffffff;
+}
+div.content 
+{	
+margin: 0 auto;	
+width: 960px;
+}
+div.missing 
+{
+margin: auto;
+position: relative;
+top: 50%;
+width: 193px;
+}
+div.missing a 
+{
+height: 63px;
+position: relative;
+top: -31px;
+}
+div.missing img 
+{
+border-width: 0px;
+}
+div#unityPlayer 
+{
+cursor: default;
+position:absolute;
+margin-top:20px;
+height: 600px;
+width: 960px;
+}
