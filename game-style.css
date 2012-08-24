@@ -34,12 +34,17 @@ color:#ffffff;
 }
 #header a
 {
-color: #ffffff;
+color:white;
 }
-div.content 
-{	
-margin: 0 auto;	
-width: 960px;
+div.content
+{
+color:black;
+margin:0 auto;
+width:960px;
+}	
+div.content a
+{
+color:black;
 }
 div.missing 
 {
@@ -61,7 +66,7 @@ border-width: 0px;
 div#unityPlayer 
 {
 cursor: default;
-position:absolute;
+margin:0 auto;
 margin-top:20px;
 height: 600px;
 width: 960px;
